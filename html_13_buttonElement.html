@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Element</title>
+</head>
+
+<body>
+
+    <form action="/edoOkaServer">
+        <caption>Fill the Form</caption>
+
+        <div><label for="Username">Enter Username</label><input type="text" id="Username"></div>
+        <div><label for="password">Enter Password</label><input type="password" id="password"></div>
+        <div><label for="age">Enter Age</label><input type="number" id="age"></div>
+
+        <!-- All types of buttons -->
+
+        <!-- submit button -->
+        <button type="submit">Submit</button>
+
+        <!-- Reset button -->
+        <button type="reset">reset</button>
+
+        <!-- General purpose button -->
+        <button type="button" onclick="alert('Hello bhai')">Click Me</button>
+
+        <!-- Using input as button -->
+        <!-- submit button -->
+        <input type="submit" value="submit karo">
+        <!-- Reset button -->
+        <input type="reset" value="reset karo">
+        <!-- General purpose button -->
+        <input type="button" value="click karo" onclick="alert('Hello g')">
+
+    </form>
+
+</body>
+
+</html>
