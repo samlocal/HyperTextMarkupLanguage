@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+
+<body>
+    <!-- Creating Tables without any semantics -->
+    <h3>Creating Tables without any semantics</h3>
+    <table border="1">
+        <caption>Food Menu</caption>
+
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Samosa</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Chips</td>
+            <td>20</td>
+        </tr>
+    </table>
+
+
+    <!-- Creating Table with Semantic Tags -->
+    <h3>Creating Table with Semantic Tags </h3>
+    <table border="1">
+
+        <!-- Table head -->
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+
+        <!-- Table body -->
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>Chat</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td>Contact</td>
+                <td>912391099</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
