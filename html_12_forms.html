@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <!-- form only -->
+    <form action="/action">
+        Input text : <input type="text"><br>
+        Input Password : <input type="password"><br>
+        Input Number : <input type="number"><br>
+        Input Color : <input type="color"><br>
+        Input Date : <input type="date"><br>
+        Input Time : <input type="time"><br>
+    </form>
+
+    <br><br>
+    <hr><br><br>
+
+    <!-- Placeholder -->
+    <form action="/action">
+        User Name : <input type="text" placeholder="name enter karo"><br>
+        Password : <input type="password" placeholder="password daalo bhai">
+    </form>
+    <br><br>
+    <hr><br><br>
+
+    <!-- Labels -->
+    <form action="/">
+        <label>
+            User Name : <input type="text" placeholder="name enter karo">
+        </label>
+
+        <br>
+
+        <label>
+            Password : <input type="password" placeholder="password daalo bhai">
+        </label>
+    </form>
+
+    <br><br>
+    <hr><br><br>
+    <!-- Label Classical Approach using for  and id attribute-->
+     <form action="/">
+        <label for="username">Enter username</label>
+        <input type="text" id="username" placeholder="name daalo bhai">
+
+        <label for="password">Enter password</label>
+        <input type="password" id="password" placeholder="password daalo">
+     </form>
+
+
+
+</body>
+
+</html>
