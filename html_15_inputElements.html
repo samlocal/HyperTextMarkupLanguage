@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Elements</title>
+</head>
+
+<body>
+    <h2>Input elements</h2>
+    <form action="/edoOkaServer">
+        <!-- check box -->
+         <h4>Choose ur Subjects:</h4>
+        <input type="checkbox" id="sub1" name="subjects" value="maths">
+        <label for="sub1">Maths</label>
+        <input type="checkbox" id="sub2" name="subjects" value="science">
+        <label for="sub2">Science</label>
+        <input type="checkbox" id="sub3" name="subjects" value="social">
+        <label for="sub3">Social</label>
+
+        <br>
+
+        <!-- Radio Button -->
+         <h3>Nuve evanivi</h3>
+        <input type="radio" name="gender" id="male" value="male"> <label for="male" >Male</label>
+        <input type="radio" name="gender" id="female" value="female"> <label for="female" >Female</label>
+        <input type="radio" name="gender" id="others"  value="others"> <label for="others">Others</label>
+
+        <br>
+
+        <!-- select element -->
+         <h3>Yaa Peta Needi</h3>
+         <select name="street" id="peta">
+            <option value="Uppari peta">Uppari peta</option>
+            <option value="Farooq Nagar" selected>Farooq Nagar</option>
+            <option value="Gudipadi Gadda">Gudipadi Gadda</option>
+            <option value="Kota Veedi">Kota Veedi</option>
+            <option value="Taggu">Taggu</option>
+         </select>
+
+         <br>
+
+         <!-- Range Element -->
+          <h3>Select Volume</h3>
+          <input type="range" min="0" max="100" name="volume" id="vol" value="30">
+          <label for="vol"></label>
+
+          <br>
+
+          <!-- Text Area -->
+           <label for="feed" >Enter Feedback:</label>
+           <textarea name="feedback" id="feed" rows="10" cols="50"></textarea>
+
+
+
+
+
+
+        <button type="submit">submit</button>
+
+        <!-- when we submit the form the data will be flow into backend as folloes -->
+        <!--  http://127.0.0.1:5500/edoOkaServer?subjects=science&gender=others&street=Kota+Veedi&volume=85-->
+    
+    </form>
+</body>
+
+</html>
+
